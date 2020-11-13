@@ -906,7 +906,7 @@ a{
         width: 100%;
         position: absolute;
         top: 0;
-    }/* 감싸는 div 안의 개체 이미지인 slide에 {위드 100% + 포지션 앱솔루트 + 탑0}하고 nth차일드에서 1개만 로드되도록 코드 추가 */
+    }/* 감싸는 div 안의 개체 이미지인 slide에 {위드 100% + 포지션 앱솔루트 + 탑0}하고 + nth차일드에서 1개만 로드되도록 코드 추가 */
     
     .treat_slider > .treat_list > .slide:nth-child(2){
         display: none;
